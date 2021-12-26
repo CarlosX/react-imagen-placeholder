@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useRef } from 'react';
-import { ImagenLoaderProps } from './types';
+import { ImagenPlaceHolderProps } from './types';
 
-const ImagenLoader = ({
+const ImagenPlaceHolder = ({
   src,
   alt,
   width,
@@ -10,7 +10,7 @@ const ImagenLoader = ({
   placeHolder = true,
   placeHolderClassName = '',
   lazyLoad = false,
-}: ImagenLoaderProps) => {
+}: ImagenPlaceHolderProps) => {
   const imgRef = useRef<HTMLImageElement | null>(null);
   const [isMounted, setMounted] = React.useState(false);
   const [loaded, setLoaded] = React.useState(false);
@@ -70,4 +70,4 @@ const ImagenLoader = ({
   );
 };
 
-export default ImagenLoader;
+export default ImagenPlaceHolder;

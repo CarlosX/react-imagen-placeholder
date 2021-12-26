@@ -1,3 +1,3 @@
-import ImagenLoader from './ImagenLoader';
+import ImagenPlaceHolder from './ImagenPlaceHolder';
 
-export { ImagenLoader };
+export { ImagenPlaceHolder as ImagenLoader };

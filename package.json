@@ -1,10 +1,12 @@
 {
-  "name": "react-imagen-loader",
+  "name": "react-imagen-placeholder",
   "version": "1.0.0",
   "license": "MIT",
   "private": false,
-  "description": "Imagen Loader plaholder for react",
+  "description": "Image Loader placeholder for react",
   "author": "CarlosX <carloscping@gmail.com>",
+  "repository": "https://github.com/CarlosX/react-imagen-placeholder.git",
+  "homepage": "https://github.com/CarlosX/react-imagen-placeholder#readme",
   "keywords": [
     "image-loader",
     "react",
@@ -26,36 +28,11 @@
     "rollup-plugin-typescript2": "^0.31.1",
     "typescript": "^4.5.4"
   },
-  "scripts": {
-    "build": "rollup -c"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CarlosX/react-imagen-loader.git"
-  },
-  "bugs": {
-    "url": "https://github.com/CarlosX/react-imagen-loader/issues"
-  },
-  "homepage": "https://github.com/CarlosX/react-imagen-loader#readme"
+  "scripts": {
+    "build": "rollup -c"
+  }
 }

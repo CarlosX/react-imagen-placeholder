@@ -1,4 +1,4 @@
-export type ImagenLoaderProps = {
+export type ImagenPlaceHolderProps = {
   src: string;
   alt: string;
   width: number | string;

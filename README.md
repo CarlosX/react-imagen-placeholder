@@ -1,13 +1,13 @@
-# React Imagen Loader
-Imagen Loader plaholder for react
+# React Imagen PlaceHolder
+Imagen with PlaceHolder for react
 
 ## Usage
 ```javascript
-import { ImagenLoader } from 'react-imagen-loader';
+import { ImagenPlaceHolder } from 'react-imagen-placeholder';
 ```
 
 ```jsx
-<ImagenLoader 
+<ImagenPlaceHolder 
     src=""
     alt=""
     width={100}
