@@ -1,8 +1,18 @@
 # React Imagen PlaceHolder
 Imagen with PlaceHolder for react
 
+## Installation
+
+Install with npm:
+```bash
+npm install --save react-imagen-placeholder
+```
+
 ## Usage
-```javascript
+
+Import the component
+
+```jsx
 import { ImagenPlaceHolder } from 'react-imagen-placeholder';
 ```
 
@@ -15,6 +25,14 @@ import { ImagenPlaceHolder } from 'react-imagen-placeholder';
     placeHolder={true}
 />
 ```
+
+## Props
+| Name                | Description                                                                                                                                                                                                                            |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `src`               | Required. 
+| `alt`               | Required. 
+| `width`             | Required. 
+| `height`            | Required. 
 
 ## License
 
